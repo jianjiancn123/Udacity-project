@@ -1,0 +1,55 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+/* hr */
+.padding-hr {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* featured worl */
+.text-muted {
+	color: #7d97ad;
+    margin-top: 30px;
+    margin-bottom:  20px;
+    padding-left: 15px;
+}
+
+/* h1-font */
+.text-thin {
+	font-weight: 100;
+}
+
+.text-super {
+	font-size: 60px;
+}
+
+/* logo */
+.title-logo {
+	margin-top: 20px;
+}
+
+/* h3-font */
+h3 {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 360px) {
+    .text-thin {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .img-center {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 580px) {
+    .text-thin {
+        font-size: 35px;
+}
